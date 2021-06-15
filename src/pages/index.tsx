@@ -16,40 +16,12 @@ const Home = (props: {
 }
 
 export const getServerSideProps = async (_ctx: any) => {
+	const data = await fetch("http://localhost:3000/api/sdui/")
+	const layout = await data.json()
+
 	return {
 		props: {
-			layout: [
-				{
-						name: "ExploreNiches",
-						content: {
-							boo: "baz"
-						}
-				},
-				{
-						name: "GreatestEventsBanner",
-						content: {
-							boo: "baz"
-						}
-				},
-				{
-					name: "ExploreCities",
-					content: {
-						country_name: "Zimbabwe"
-					}
-				},
-				{
-						name: "ExploreRandom",
-						content: {
-							boo: "baz"
-						}
-				},
-				{
-						name: "HostEventBanner",
-						content: {
-							boo: "baz"
-						}
-				},
-			]
+			...layout
 		}
 	}
 }

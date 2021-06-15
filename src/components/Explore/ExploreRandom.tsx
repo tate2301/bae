@@ -2,13 +2,16 @@ import { Box, Heading, SimpleGrid, Text } from '@chakra-ui/layout'
 import EventCard from '../../components/Cards/EventCard'
 import React from 'react'
 
-function ExploreRandom() {
+function ExploreRandom({title, subtitle}: {
+    title: string
+    subtitle?: string
+}) {
     return (
         <Box w={"100%"} my={8}>
             <Box>
-                <Heading>Discover Events</Heading>
+                <Heading>{title}</Heading>
                 <Text fontSize="xl">
-                    Unique activities with local experts—in person or online.
+                    {subtitle}
                 </Text>
             </Box>
             <SimpleGrid columns={{base: 1, md: 3, xl: 4}} my={4}>
