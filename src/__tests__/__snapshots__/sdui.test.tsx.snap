@@ -1,0 +1,228 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders a given component and its props from its name using destructuring 1`] = `
+Array [
+  <style
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": ".css-145trq6{width:100%;margin-top:8px;margin-bottom:8px;}",
+      }
+    }
+    data-emotion="css 145trq6"
+  />,
+  <div
+    className="css-145trq6"
+  >
+    <h2
+      className="chakra-heading css-0"
+    >
+      Explore cities in 
+      Zimbabwe
+    </h2>
+  </div>,
+]
+`;
+
+exports[`renders a given component and its props from its name using prop values 1`] = `
+Array [
+  <style
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": ".css-145trq6{width:100%;margin-top:8px;margin-bottom:8px;}",
+      }
+    }
+    data-emotion="css 145trq6"
+  />,
+  <div
+    className="css-145trq6"
+  >
+    <h2
+      className="chakra-heading css-0"
+    >
+      Explore cities in 
+      Zimbabwe
+    </h2>
+  </div>,
+]
+`;
+
+exports[`renders a given component from its name 1`] = `
+Array [
+  <style
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": ".css-145trq6{width:100%;margin-top:8px;margin-bottom:8px;}",
+      }
+    }
+    data-emotion="css 145trq6"
+  />,
+  <div
+    className="css-145trq6"
+  >
+    <h2
+      className="chakra-heading css-0"
+    >
+      Explore cities in 
+    </h2>
+  </div>,
+]
+`;
+
+exports[`renders the PageUI using data provided 1`] = `
+Array [
+  <style
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": ".css-145trq6{width:100%;margin-top:8px;margin-bottom:8px;}",
+      }
+    }
+    data-emotion="css 145trq6"
+  />,
+  <div
+    className="css-145trq6"
+  >
+    <h2
+      className="chakra-heading css-0"
+    >
+      Explore cities in 
+    </h2>
+  </div>,
+  <style
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": ".css-145trq6{width:100%;margin-top:8px;margin-bottom:8px;}",
+      }
+    }
+    data-emotion="css 145trq6"
+  />,
+  <div
+    className="css-145trq6"
+  >
+    <h2
+      className="chakra-heading css-0"
+    >
+      Explore event niches
+    </h2>
+  </div>,
+  <style
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": ".css-1vbhxmt{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;justify-content:center;margin-top:12px;margin-bottom:12px;padding:8px;height:96px;border-radius:lg;background-color:milk;background-image:url('https://a0.muscache.com/im/pictures/2da67c1c-0c61-4629-8798-1d4de1ac9291.jpg?im_w=1440');}",
+      }
+    }
+    data-emotion="css 1vbhxmt"
+  />,
+  <div
+    className="css-1vbhxmt"
+  >
+    <div
+      className="css-0"
+    >
+      <h2
+        className="chakra-heading css-0"
+      >
+        All the Greatest Events
+      </h2>
+      <p
+        className="chakra-text css-0"
+      >
+        The top Events curated by our Team
+      </p>
+    </div>
+    <style
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": ".css-164r41r{margin-top:8px;}",
+        }
+      }
+      data-emotion="css 164r41r"
+    />
+    <div
+      className="css-164r41r"
+    >
+      <style
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": ".css-sqlyrv{display:-webkit-inline-box;display:-webkit-inline-flex;display:-ms-inline-flexbox;display:inline-flex;-webkit-appearance:none;-moz-appearance:none;-ms-appearance:none;appearance:none;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;justify-content:center;-webkit-transition:all 250ms;transition:all 250ms;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;position:relative;white-space:nowrap;vertical-align:middle;outline:2px solid transparent;outline-offset:2px;width:auto;background-color:gray.900;color:white;}",
+          }
+        }
+        data-emotion="css sqlyrv"
+      />
+      <button
+        className="chakra-button css-sqlyrv"
+        type="button"
+      >
+        Learn more
+      </button>
+    </div>
+  </div>,
+  <style
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": ".css-iwpev5{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;justify-content:center;margin-top:12px;margin-bottom:12px;padding:8px;height:96px;border-radius:lg;background-color:milk;background-image:url('https://a0.muscache.com/im/pictures/2595054e-d1d9-4fde-8046-58d51fcb3164.jpg?im_w=1440');}",
+      }
+    }
+    data-emotion="css iwpev5"
+  />,
+  <div
+    className="css-iwpev5"
+  >
+    <style
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": ".css-kbn7if{color:white;}",
+        }
+      }
+      data-emotion="css kbn7if"
+    />
+    <div
+      className="css-kbn7if"
+    >
+      <h2
+        className="chakra-heading css-0"
+      >
+        Host an event
+      </h2>
+      <style
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": ".css-6dvxm2{font-size:xl;}",
+          }
+        }
+        data-emotion="css 6dvxm2"
+      />
+      <p
+        className="chakra-text css-6dvxm2"
+      >
+        Can't find that event? Host it yourself and earn some buck
+      </p>
+    </div>
+    <style
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": ".css-164r41r{margin-top:8px;}",
+        }
+      }
+      data-emotion="css 164r41r"
+    />
+    <div
+      className="css-164r41r"
+    >
+      <style
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": ".css-1s3wy7n{display:-webkit-inline-box;display:-webkit-inline-flex;display:-ms-inline-flexbox;display:inline-flex;-webkit-appearance:none;-moz-appearance:none;-ms-appearance:none;appearance:none;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;justify-content:center;-webkit-transition:all 250ms;transition:all 250ms;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;position:relative;white-space:nowrap;vertical-align:middle;outline:2px solid transparent;outline-offset:2px;width:auto;background-color:white;color:gray.900;}",
+          }
+        }
+        data-emotion="css 1s3wy7n"
+      />
+      <button
+        className="chakra-button css-1s3wy7n"
+        type="button"
+      >
+        Get started
+      </button>
+    </div>
+  </div>,
+]
+`;

@@ -1,0 +1,32 @@
+/* Global Styling here */
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+:focus {
+    outline:0 !important;
+    box-shadow: none !important;
+}
+
+svg {
+    height: 100%;
+    width: 100%;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+}
+
+.eventCardImageBox {
+    position: relative;
+}
+
+.eventCardImageLike {
+    position: absolute !important;
+    top: 12px !important;
+    right: 12px !important;
+}
