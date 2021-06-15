@@ -1,27 +1,40 @@
 import React from 'react'
-import { Box, Image, Heading, Text } from '@chakra-ui/react'
+import { Box, Flex, Heading, Text, Button } from '@chakra-ui/react'
 
-
-function NicheCard({title, subtitle}: {
-    title: string
-    subtitle: string
+export function NicheCard({name, tagline, img, tag}: {
+    name: string
+    tagline: string
+    img: string
+    tag: string
 }) {
     return (
-        <Box rounded={"md"} experimental_spaceY={4}>
-            <Image 
-                w={"100%"} 
-                h={96} 
-                rounded="md"
-                src="https://a0.muscache.com/im/pictures/172eaf51-6aaa-4beb-b671-5e76a82a1367.jpg?im_w=480" />
-            <Box experimental_spaceY={1} my={2}>
-                <Heading fontSize="lg">
-                    {title}
+        <Flex
+            justifyContent="space-between"
+            flexDir="column" 
+            h={72}
+            py={4}
+            px={8}
+            rounded={"md"} 
+            experimental_spaceY={4} 
+            backgroundColor="gray.900"
+            backgroundImage={`url('${img}')`}
+            backgroundPosition="center"
+            backgroundSize="cover">
+            <Box w={{base: "100%", md: "50%", lg: "30%"}} color="white" experimental_spaceY={1} my={2}>
+                <Text>{tag}</Text>
+                <Heading fontSize="xl">
+                    {name}
                 </Heading>
                 <Text>
-                    {subtitle}
+                    {tagline}
                 </Text>
             </Box>
-        </Box>
+            <Box>
+                <Button backgroundColor="white" color="gray.900">
+                    Show all
+                </Button>
+            </Box>
+        </Flex>
     )
 }
 
