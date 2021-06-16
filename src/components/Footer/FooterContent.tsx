@@ -5,7 +5,7 @@ import Link from 'next/link'
 function FooterContent() {
     return (
         <Box w={"100%"} py={8}>
-            <SimpleGrid columns={3} spacing={8}>
+            <SimpleGrid columns={{base: 1, md: 3}} spacing={8}>
                 <Box>
                     <Heading fontSize="sm">ABOUT</Heading>
                     <List spacing={4} mt={4}>

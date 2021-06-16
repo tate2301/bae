@@ -6,3 +6,10 @@ export interface INicheSDUIData {
     cta: string
     img: string
 }
+
+export interface ISDUIData {
+    id: string
+    title: string
+    [key: string]: any
+
+}

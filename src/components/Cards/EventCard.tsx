@@ -6,7 +6,7 @@ import { HeartIcon as HeartSolid } from "@heroicons/react/solid"
 
 const EventCard = ({title, city, tickets, remaining_slots, price, favorite}: EventCardProps) => {
     return (
-        <Box rounded="md">
+        <Box w={{base: "90%", md: "28%", lg: "24%", xl: "18%"}} rounded="md">
             <Box className="eventCardImageBox">
                 <Image 
                     w={"100%"} 

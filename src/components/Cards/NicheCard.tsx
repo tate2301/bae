@@ -11,7 +11,8 @@ export function NicheCard({name, tagline, img, tag}: {
         <Flex
             justifyContent="space-between"
             flexDir="column" 
-            h={72}
+            minH={72}
+            w={{base: "90%", md: "50%"}}
             py={4}
             px={8}
             rounded={"md"} 
@@ -19,7 +20,8 @@ export function NicheCard({name, tagline, img, tag}: {
             backgroundColor="gray.900"
             backgroundImage={`url('${img}')`}
             backgroundPosition="center"
-            backgroundSize="cover">
+            backgroundSize="cover"
+            className="horizontal-scroll-item">
             <Box w={{base: "100%", md: "50%", lg: "30%"}} color="white" experimental_spaceY={1} my={2}>
                 <Text>{tag}</Text>
                 <Heading fontSize="xl">

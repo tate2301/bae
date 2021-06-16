@@ -30,3 +30,26 @@ svg {
     top: 12px !important;
     right: 12px !important;
 }
+
+.horizontal-scroll {
+    scroll-snap-type: x mandatory;
+    overflow-x: scroll;
+    display: inline-block;
+    display: -webkit-inline-box;
+}
+
+.horizontal-scroll::-webkit-scrollbar {
+    width: 0;  /* Remove scrollbar space */
+    height: 0;
+}
+
+.horizontal-scroll > div {
+    scroll-snap-align: start;
+    margin: 0 12px;
+}
+
+@media screen and(max-width: 1199px) {
+    .horizontal-scroll > div {
+        margin: 0 24px;
+    }
+}
