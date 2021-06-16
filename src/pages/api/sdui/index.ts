@@ -184,6 +184,242 @@ export default (req: NextApiRequest, res: NextApiResponse) => {
                     boo: "baz"
                 }
         },
+        {
+            name: "ExploreRandom",
+            content: {
+                title: "Trending in entertainment",
+                data: [
+                    {
+                        title: "Living Room Hunter's Scavenger",
+                        price: 12.00,
+                        city_name: "Chinhoyi",
+                        tickets: 50,
+                        favorite: false,
+                        remaining_slots: 20,
+                        img: "https://a0.muscache.com/im/pictures/ad109d56-2421-40cd-98e6-e114160dc85b.jpg?im_w=480"
+                    },
+                    {
+                        title: "Living Room Hunter's Scavenger",
+                        price: 12.00,
+                        city_name: "Chinhoyi",
+                        tickets: 50,
+                        favorite: false,
+                        remaining_slots: 20,
+                        img: "https://a0.muscache.com/im/pictures/ad109d56-2421-40cd-98e6-e114160dc85b.jpg?im_w=480"
+                    },
+                    {
+                        title: "Living Room Hunter's Scavenger",
+                        price: 12.00,
+                        city_name: "Chinhoyi",
+                        tickets: 50,
+                        favorite: false,
+                        remaining_slots: 20,
+                        img: "https://a0.muscache.com/im/pictures/ad109d56-2421-40cd-98e6-e114160dc85b.jpg?im_w=480"
+                    },
+                    {
+                        title: "Living Room Hunter's Scavenger",
+                        price: 12.00,
+                        city_name: "Chinhoyi",
+                        tickets: 50,
+                        favorite: false,
+                        remaining_slots: 20,
+                        img: "https://a0.muscache.com/im/pictures/ad109d56-2421-40cd-98e6-e114160dc85b.jpg?im_w=480"
+                    },
+                    {
+                        title: "Living Room Hunter's Scavenger",
+                        price: 12.00,
+                        city_name: "Chinhoyi",
+                        tickets: 50,
+                        favorite: false,
+                        remaining_slots: 20,
+                        img: "https://a0.muscache.com/im/pictures/ad109d56-2421-40cd-98e6-e114160dc85b.jpg?im_w=480"
+                    },
+                    {
+                        title: "Living Room Hunter's Scavenger",
+                        price: 12.00,
+                        city_name: "Chinhoyi",
+                        tickets: 50,
+                        favorite: false,
+                        remaining_slots: 20,
+                        img: "https://a0.muscache.com/im/pictures/ad109d56-2421-40cd-98e6-e114160dc85b.jpg?im_w=480"
+                    },
+                    {
+                        title: "Living Room Hunter's Scavenger",
+                        price: 12.00,
+                        city_name: "Chinhoyi",
+                        tickets: 50,
+                        favorite: false,
+                        remaining_slots: 20,
+                        img: "https://a0.muscache.com/im/pictures/ad109d56-2421-40cd-98e6-e114160dc85b.jpg?im_w=480"
+                    },
+                    {
+                        title: "Living Room Hunter's Scavenger",
+                        price: 12.00,
+                        city_name: "Chinhoyi",
+                        tickets: 50,
+                        favorite: false,
+                        remaining_slots: 20,
+                        img: "https://a0.muscache.com/im/pictures/ad109d56-2421-40cd-98e6-e114160dc85b.jpg?im_w=480"
+                    },
+                    {
+                        title: "Living Room Hunter's Scavenger",
+                        price: 12.00,
+                        city_name: "Chinhoyi",
+                        tickets: 50,
+                        favorite: false,
+                        remaining_slots: 20,
+                        img: "https://a0.muscache.com/im/pictures/ad109d56-2421-40cd-98e6-e114160dc85b.jpg?im_w=480"
+                    },
+                ]
+            }
+        },
+        {
+            name: "GridList",
+            content: {
+                config: {
+                    columns: {
+                        base: 1,
+                        md: 2,
+                        lg: 3,
+                        xl: 4
+                    },
+                    spacing: 8
+                },
+                title: "Make plans this weekend",
+                data: [
+                    {
+                        name: "EventCard",
+                        props: {
+                            title: "Living Room Hunter's Scavenger",
+                            price: 12.00,
+                            city_name: "Chinhoyi",
+                            tickets: 50,
+                            favorite: false,
+                            remaining_slots: 20,
+                            img: "https://a0.muscache.com/im/pictures/ad109d56-2421-40cd-98e6-e114160dc85b.jpg?im_w=480"
+                        },
+                    },
+                    {
+                        name: "EventCard",
+                        props: {
+                            title: "Living Room Hunter's Scavenger",
+                            price: 12.00,
+                            city_name: "Chinhoyi",
+                            tickets: 50,
+                            favorite: false,
+                            remaining_slots: 20,
+                            img: "https://a0.muscache.com/im/pictures/ad109d56-2421-40cd-98e6-e114160dc85b.jpg?im_w=480"
+                        },
+                    },
+                    {
+                        name: "EventCard",
+                        props: {
+                            title: "Living Room Hunter's Scavenger",
+                            price: 12.00,
+                            city_name: "Chinhoyi",
+                            tickets: 50,
+                            favorite: false,
+                            remaining_slots: 20,
+                            img: "https://a0.muscache.com/im/pictures/ad109d56-2421-40cd-98e6-e114160dc85b.jpg?im_w=480"
+                        },
+                    },
+                    {
+                        name: "EventCard",
+                        props: {
+                            title: "Living Room Hunter's Scavenger",
+                            price: 12.00,
+                            city_name: "Chinhoyi",
+                            tickets: 50,
+                            favorite: false,
+                            remaining_slots: 20,
+                            img: "https://a0.muscache.com/im/pictures/af5a139e-8160-4c83-b7cf-3b2bf2b464ef.jpg?im_w=480"
+                        },
+                    },
+                ]
+            }
+        },
+        {
+            name: "ExploreRandom",
+            content: {
+                title: "Starting in the next 6 hours",
+                subtitle: "Bored and have free time? Hop on.",
+                data: [
+                    {
+                        title: "Living Room Hunter's Scavenger",
+                        price: 12.00,
+                        city_name: "Chinhoyi",
+                        tickets: 50,
+                        favorite: false,
+                        remaining_slots: 20,
+                        img: "https://a0.muscache.com/im/pictures/ad109d56-2421-40cd-98e6-e114160dc85b.jpg?im_w=480"
+                    },
+                    {
+                        title: "Living Room Hunter's Scavenger",
+                        price: 12.00,
+                        city_name: "Chinhoyi",
+                        tickets: 50,
+                        favorite: false,
+                        remaining_slots: 20,
+                        img: "https://a0.muscache.com/im/pictures/ad109d56-2421-40cd-98e6-e114160dc85b.jpg?im_w=480"
+                    },
+                    {
+                        title: "Living Room Hunter's Scavenger",
+                        price: 12.00,
+                        city_name: "Chinhoyi",
+                        tickets: 50,
+                        favorite: false,
+                        remaining_slots: 20,
+                        img: "https://a0.muscache.com/im/pictures/ad109d56-2421-40cd-98e6-e114160dc85b.jpg?im_w=480"
+                    },
+                    {
+                        title: "Living Room Hunter's Scavenger",
+                        price: 12.00,
+                        city_name: "Chinhoyi",
+                        tickets: 50,
+                        favorite: false,
+                        remaining_slots: 20,
+                        img: "https://a0.muscache.com/im/pictures/ad109d56-2421-40cd-98e6-e114160dc85b.jpg?im_w=480"
+                    },
+                    {
+                        title: "Living Room Hunter's Scavenger",
+                        price: 12.00,
+                        city_name: "Chinhoyi",
+                        tickets: 50,
+                        favorite: false,
+                        remaining_slots: 20,
+                        img: "https://a0.muscache.com/im/pictures/ad109d56-2421-40cd-98e6-e114160dc85b.jpg?im_w=480"
+                    },
+                    {
+                        title: "Living Room Hunter's Scavenger",
+                        price: 12.00,
+                        city_name: "Chinhoyi",
+                        tickets: 50,
+                        favorite: false,
+                        remaining_slots: 20,
+                        img: "https://a0.muscache.com/im/pictures/ad109d56-2421-40cd-98e6-e114160dc85b.jpg?im_w=480"
+                    },
+                    {
+                        title: "Living Room Hunter's Scavenger",
+                        price: 12.00,
+                        city_name: "Chinhoyi",
+                        tickets: 50,
+                        favorite: false,
+                        remaining_slots: 20,
+                        img: "https://a0.muscache.com/im/pictures/ad109d56-2421-40cd-98e6-e114160dc85b.jpg?im_w=480"
+                    },
+                    {
+                        title: "Living Room Hunter's Scavenger",
+                        price: 12.00,
+                        city_name: "Chinhoyi",
+                        tickets: 50,
+                        favorite: false,
+                        remaining_slots: 20,
+                        img: "https://a0.muscache.com/im/pictures/ad109d56-2421-40cd-98e6-e114160dc85b.jpg?im_w=480"
+                    },
+                ]
+            }
+        },
+
     ]
   });
 };

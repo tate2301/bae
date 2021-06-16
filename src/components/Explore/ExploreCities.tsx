@@ -1,11 +1,10 @@
 import { Box, Heading } from '@chakra-ui/layout'
-import CityCard from 'components/Cards/CityCard'
+import CityCard from '../../components/Cards/CityCard'
 import { INicheSDUIData } from 'lib/types'
 import React from 'react'
 import HorizontalScroll from "../../layouts/HorizontalScroll"
 
 function ExploreCities({country_name, subtitle, data}: IExploreCitiesProps) {
-    console.log({data})
 
     return (
         <Box w={"100%"} my={8}>

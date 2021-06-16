@@ -1,6 +1,7 @@
 import components from "../components"
 import React from "react"
 import { Box } from "@chakra-ui/react"
+import { ISDUIData } from "./types"
 
 const PageUI = (props: {
     component_tree: IComponentTree
@@ -15,6 +16,17 @@ const PageUI = (props: {
                 )
             })}
         </Box>
+    )
+}
+
+export const SDUIComponent = ({name, props, inGrid}: {
+    name: string
+    props: ISDUIData
+    inGrid: boolean
+}) => {
+    const Component = resolveComponent(name)
+    return (
+        <Component {...props} inGrid={inGrid}/>
     )
 }
 

@@ -15,6 +15,7 @@ function ExploreRandom({title, subtitle, data}: {
                 {
                     data?.map((value, key) => 
                         <EventCard 
+                            inGrid={false}
                             key={key}
                             title={value.title}
                             price={value.price} 
