@@ -61,6 +61,7 @@ interface EventCardProps {
     remaining_slots: number
     favorite: boolean
     inGrid: boolean
+    img: string
 }
 
 export default EventCard
