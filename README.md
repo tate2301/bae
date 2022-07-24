@@ -1,4 +1,4 @@
-# Business Events Scheduling Web App
+# Stagedla
 
 ## Tech Stack
 This web app uses Next.js, Vercel Serverless and Firebase 
